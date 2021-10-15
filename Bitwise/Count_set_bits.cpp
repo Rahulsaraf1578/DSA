@@ -24,6 +24,12 @@ unsigned int count_set_bits2(unsigned int n){
 }
 
 // Brian Kernighan's algorithm
+// Subtracting 1 from a decimal number flips all the bits after the rightmost set bit(which is 1) including the rightmost set bit. 
+// for example : 
+// 10 in binary is 00001010 
+// 9 in binary is 00001001 
+// 8 in binary is 00001000 
+// 7 in binary is 00000111 
 unsigned int countSetBits(int n)
 {
     unsigned int count = 0;

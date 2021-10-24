@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${default}"
+            ],
+            "intelliSenseMode": "macos-clang-x64",
+            "compilerPath": "/usr/bin/clang"
+        }
+    ],
+    "version": 4
+}

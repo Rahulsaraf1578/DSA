@@ -17,6 +17,9 @@ int factorial(int n){
     return (n==1||n==0)?1:n*factorial(n-1);
 }
 
+int factorial2(int n){
+    return (n==1 ||n==0)?1:n*factorial2(n-1);
+}
 int main(){
     int n = 5;
 

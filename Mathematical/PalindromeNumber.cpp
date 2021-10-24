@@ -13,6 +13,17 @@ bool checkPalind(string s){
     return true;
 }
 
+bool checPalind2(string s1){
+    int length = s1.length();
+
+    for(int i=0;i<length;i++){
+        if(s1[i]!=s1[length-i-1]){
+            return false;
+        }
+    }
+    return true;
+}
+
 // String method
 
 int main(){
